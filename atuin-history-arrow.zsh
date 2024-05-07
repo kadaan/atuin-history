@@ -62,8 +62,7 @@ atuin-history-down() {
 
   # iteratively use the next mechanism to process down if the previous didn't succeed
   _atuin-history-down-buffer ||
-  _atuin-history-down-search ||
-  zle _atuin_search_widget
+  _atuin-history-down-search
 
   _atuin-history-search-end
 }
